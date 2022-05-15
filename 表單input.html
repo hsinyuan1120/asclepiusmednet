@@ -1,0 +1,75 @@
+#server get "POST" request from 用戶端
+
+
+<form action="一般內科.html" method="POST/GET">
+<input type="search" placeholder="請輸入症狀">
+<input type="submit" value="開始搜尋初診科別">
+</form>
+	<!--下拉式連結表單_開始-->
+    <script language="JavaScript">
+        <!-- 
+        function surfto(form) {
+        var myindex=form.javamagic.selectedIndex
+        window.open(form.javamagic.options[myindex].value,"_blank","");  }
+        -->
+        </script>
+        <form name="myform">
+        <select name="javamagic" style="background:#95dbef; color:#000000">
+        <option SELECTED value="">---連 結 選 項---</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/blog-post.html">一般內科</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/blog-post_14.html">消化內科</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/air-allergyimmunerheumatology.html">風濕免疫科</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/nephro-nephrology.html">腎臟科</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/meta-metabolism.html">新陳代謝科</option>
+        <option value="https://asclepius01.blogspot.com/2022/05/hohematology-oncology.html">血液腫瘤科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/general-surgery-gs.html">一般外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/plastic-reconstructive-surgery-prs.html">整形外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/blog-post.html">疝氣</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/orthopedic-surgery-os.html">骨科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/neurosurgery-ns.html">神經外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/blog-post_14.html">大腸直腸外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/blog-post_31.html">乳房專科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/cardiovascular-surgery-cs.html">心臟血管外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/blog-post_95.html">燒傷暨傷口照護</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/urology-ur.html">泌尿科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/blog-post_49.html">神經脊椎外科</option>
+        <option value="https://asclepius02.blogspot.com/2022/05/thoracic-surgery-ts.html">胸腔外科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post.html">小兒內科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_14.html">小兒外科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_58.html">小兒骨科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_82.html">兒童過敏氣喘免疫及風濕</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_46.html">小兒神經外科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_49.html">兒童皮膚科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_6.html">兒童耳鼻喉科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_95.html">兒童眼科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_92.html">兒童泌尿科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_53.html">兒童/青少年心智科</option>
+        <option value="https://asclepius03.blogspot.com/2022/05/blog-post_30.html">兒童營養諮詢</option>
+        <option value="https://asclepius04.blogspot.com/2022/05/otolaryngology-on.html">耳鼻喉科</option>
+        <option value="https://asclepius05.blogspot.com/2022/05/blog-post.html">家庭醫學科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post.html">家庭牙醫科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_14.html">贋復補綴科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_80.html">牙周病科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_92.html">植牙專科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_23.html">齒顎矯正科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_27.html">牙髓病科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_99.html">牙體復形科</option>
+        <option value="https://asclepius06.blogspot.com/2022/05/blog-post_56.html">口腔顎面外科</option>
+        <option value="https://asclepius07.blogspot.com/2022/05/ophthalmology.html">眼科</option>
+        <option value="https://asclepius07.blogspot.com/2022/05/blog-post.html">眼視光科</option>
+        <option value="https://asclepius08.blogspot.com/2022/05/psychiatry.html">精神科</option>
+        <option value="https://asclepius09.blogspot.com/2022/05/neurology.html">神經內科</option>
+        <option value="https://asclepius10.blogspot.com/2022/05/blog-post.html">復健科</option>
+        <option value="https://asclepius10.blogspot.com/2022/05/blog-post_14.html">物理治療</option>
+        <option value="https://asclepius10.blogspot.com/2022/05/blog-post_68.html">職能治療</option>
+        <option value="https://asclepius10.blogspot.com/2022/05/blog-post_99.html">藝術治療</option>
+        <option value="https://asclepius10.blogspot.com/2022/05/blog-post_72.html">聽力語言</option>
+        <option value="https://asclepius11.blogspot.com/2022/05/blog-post.html">一般婦科</option>
+        <option value="https://asclepius11.blogspot.com/2022/05/blog-post_14.html">生殖醫學</option>
+        <option value="https://asclepius11.blogspot.com/2022/05/blog-post_40.html">產科</option>
+        <option value="https://asclepius11.blogspot.com/2022/05/blog-post_25.html">婦科腫瘤</option>
+        <option value="https://asclepius11.blogspot.com/2022/05/blog-post_88.html">婦女泌尿科</option>
+        </select>
+        <input type="button" value="Go" style="color:#ffffff;background-color:#3399FF;border:1 solid #ffffff" onClick="surfto(this.form)">
+        </form>
+        <!--下拉式連結表單_結束-->

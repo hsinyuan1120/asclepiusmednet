@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="hsinyuan1120.doc" />
+        <meta name="author" content="hsinyuan1120.doc" />
+        <title>Asclepius-醫天屠龍醫療平台</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='dist/assets/favicon.ico') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static', filename='dist/css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Asclepius-醫天屠龍</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">就診科別</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">醫學用藥</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#covid">就醫防疫專區</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">聯絡我們</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">醫天屠龍醫療平台</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Welcome to our website!Asclepius is a premium platform for Taiwan smart healthcare solutions .
+                        </h2>
+                        <section>
+                            <input type="search" placeholder="請輸入症狀">
+                            <input type="submit" value="搜尋科別">
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white-50">科別搜尋系統</h1>
+                        <class="text-white-50">
+                        </form>
+                        <!--下拉式連結表單_開始-->
+                        <script language="JavaScript">
+                            <!-- 
+                            function surfto(form) {
+                            var myindex=form.javamagic.selectedIndex
+                            window.open(form.javamagic.options[myindex].value,"_blank","");  }
+                            -->
+                            </script>
+                            <form name="myform">
+                            <select name="javamagic" style="background:#95dbef; color:#000000">
+                            <option SELECTED value="">---請選擇科別---</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/blog-post.html">一般內科</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/blog-post_14.html">消化內科</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/air-allergyimmunerheumatology.html">風濕免疫科</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/nephro-nephrology.html">腎臟科</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/meta-metabolism.html">新陳代謝科</option>
+                            <option value="https://asclepius01.blogspot.com/2022/05/hohematology-oncology.html">血液腫瘤科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/general-surgery-gs.html">一般外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/plastic-reconstructive-surgery-prs.html">整形外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/blog-post.html">疝氣</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/orthopedic-surgery-os.html">骨科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/neurosurgery-ns.html">神經外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/blog-post_14.html">大腸直腸外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/blog-post_31.html">乳房專科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/cardiovascular-surgery-cs.html">心臟血管外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/blog-post_95.html">燒傷暨傷口照護</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/urology-ur.html">泌尿科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/blog-post_49.html">神經脊椎外科</option>
+                            <option value="https://asclepius02.blogspot.com/2022/05/thoracic-surgery-ts.html">胸腔外科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post.html">小兒內科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_14.html">小兒外科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_58.html">小兒骨科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_82.html">兒童過敏氣喘免疫及風濕</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_46.html">小兒神經外科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_49.html">兒童皮膚科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_6.html">兒童耳鼻喉科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_95.html">兒童眼科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_92.html">兒童泌尿科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_53.html">兒童/青少年心智科</option>
+                            <option value="https://asclepius03.blogspot.com/2022/05/blog-post_30.html">兒童營養諮詢</option>
+                            <option value="https://asclepius04.blogspot.com/2022/05/otolaryngology-on.html">耳鼻喉科</option>
+                            <option value="https://asclepius05.blogspot.com/2022/05/blog-post.html">家庭醫學科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post.html">家庭牙醫科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_14.html">贋復補綴科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_80.html">牙周病科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_92.html">植牙專科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_23.html">齒顎矯正科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_27.html">牙髓病科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_99.html">牙體復形科</option>
+                            <option value="https://asclepius06.blogspot.com/2022/05/blog-post_56.html">口腔顎面外科</option>
+                            <option value="https://asclepius07.blogspot.com/2022/05/ophthalmology.html">眼科</option>
+                            <option value="https://asclepius07.blogspot.com/2022/05/blog-post.html">眼視光科</option>
+                            <option value="https://asclepius08.blogspot.com/2022/05/psychiatry.html">精神科</option>
+                            <option value="https://asclepius09.blogspot.com/2022/05/neurology.html">神經內科</option>
+                            <option value="https://asclepius10.blogspot.com/2022/05/blog-post.html">復健科</option>
+                            <option value="https://asclepius10.blogspot.com/2022/05/blog-post_14.html">物理治療</option>
+                            <option value="https://asclepius10.blogspot.com/2022/05/blog-post_68.html">職能治療</option>
+                            <option value="https://asclepius10.blogspot.com/2022/05/blog-post_99.html">藝術治療</option>
+                            <option value="https://asclepius10.blogspot.com/2022/05/blog-post_72.html">聽力語言</option>
+                            <option value="https://asclepius11.blogspot.com/2022/05/blog-post.html">一般婦科</option>
+                            <option value="https://asclepius11.blogspot.com/2022/05/blog-post_14.html">生殖醫學</option>
+                            <option value="https://asclepius11.blogspot.com/2022/05/blog-post_40.html">產科</option>
+                            <option value="https://asclepius11.blogspot.com/2022/05/blog-post_25.html">婦科腫瘤</option>
+                            <option value="https://asclepius11.blogspot.com/2022/05/blog-post_88.html">婦女泌尿科</option>
+                            </select>
+                            <input type="button" value="Go" style="color:#ffffff;background-color:#3399FF;border:1 solid #ffffff" onClick="surfto(this.form)">
+                            </form>
+                            <!--下拉式連結表單_結束-->
+                            </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="{{ url_for('static', filename='dist/assets/img/city.png') }}" alt="..." />
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='dist/assets/img/bg-masthead.jpg') }}" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <a href="https://asclepius12.blogspot.com/"><h3>醫學用藥問題Q&A</h3></a>
+                            <p class="text-black-50 mb-0">在這可以您可以尋找到熱門民眾用藥問題，包含一般用藥諮詢與懷孕用藥諮詢。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="covid-section text-center" id="covid">
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ url_for('static', filename='dist/assets/img/demo-image-01.jpg') }}" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">政大人就醫專區</h4>
+                                    <p class="mb-0 text-white-50"><a href="https://tpech.gov.taipei/mp109151/cp.aspx?n=D787121C48C438E1">臺北市立聯合醫院仁愛院區政大門診部</a>
+                                    <p>
+                                    <p class="mb-0 text-white-50">地址 : 臺北市文山區指南路二段117 號1樓 <p class="mb-0 text-white-50">電話：(02)8237-7441 (02)8237-7444</p>
+                                        
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ url_for('static', filename='dist/assets/img/demo-image-02.jpg') }}" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">防疫專區</h4>
+                                    <p class="mb-0 text-white-50"><a href="https://www.nccu.edu.tw/p/426-1000-54.php?Lang=zh-tw#">政治大學COVID-19最新資訊</p>
+                                    <p>
+                                    <p class="mb-0 text-white-50"><a href="https://www.cdc.gov.tw/">衛生福利部疾病管制署最新資訊</p></a>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section text-center" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white-50"></h1>
+                        <p class="text-white-50">
+                        <h1>Asclepius-醫天屠龍醫療平台     
+                    </div>
+                </div>
+            </div>
+        </section>      
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Location</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">National Chengchi University</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://reurl.cc/lo5G0j">hsinyuan1120@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">0963809477</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://twitter.com/lieying01983536"><i class="fab fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 醫天屠龍製作團隊 2022</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='dist/js/scripts.js') }}"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    </body>
+</html>
